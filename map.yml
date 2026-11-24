@@ -8,7 +8,7 @@
 
 pieces:
   - id: web
-    zone: sale
+    zone: identidad
     kind: repo
     title: Web Zarzalejo
     gist: Portada y privacidad
