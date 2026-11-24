@@ -1,0 +1,19 @@
+# The pieces of zarzalejo-dashboard on Arturo's architecture map (/mapa/arquitectura in vision-monorepo).
+# vision's `mapa sync` reads this file from the clone (or from GitHub main) and checks it: an arrow to a piece
+# that doesn't exist, a repeated id or a missing field shows up in «Te toca». Format and recipe:
+# https://github.com/ArturoZarzalejo/vision-monorepo/blob/main/apps/vision-manager/docs/architecture-map.md
+#
+# Change it in the same PR as the code it describes. Texts in Spanish, plain words, one idea per line.
+# `feeds` = only real flows of data: { <piece it goes to>: <what travels> }.
+
+pieces:
+  - id: web
+    zone: sale
+    kind: repo
+    title: Web Zarzalejo
+    gist: Portada y privacidad
+    does: Web estática con la portada y la política de privacidad que pide Google para la app de datos del canal.
+    docs:
+      - label: El repo
+        href: https://github.com/ArturoZarzalejo/zarzalejo-dashboard
+    project: zarzalejo-dashboard
