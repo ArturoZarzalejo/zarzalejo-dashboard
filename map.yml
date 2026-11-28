@@ -10,7 +10,7 @@ pieces:
   - id: web
     zone: identidad
     kind: repo
-    title: Web Zarzalejo
+    title: Web
     gist: Portada y privacidad
     does: Web estática con la portada y la política de privacidad que pide Google para la app de datos del canal.
     docs:
